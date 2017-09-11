@@ -37,7 +37,7 @@ if(isset($_SESSION['uname'])){
 			<a href="home.php" >Go back</a>
 			<br/><br/><br/><br/><br/>
             <img src="img/logo_1.png" class="img-responsive" />
-            <p>&copy; <a href="#">Al Rumaithy Est.</a></p>
+            <p>&copy; <a href="#">abc company</a></p>
         </div>
         <div class="map-section">
             <div id="map">
@@ -54,7 +54,7 @@ if(isset($_SESSION['uname'])){
 
 <script src="js/jquery.js"></script>
 <script type="text/javascript" src="js/scripts.js"></script>
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_GSG5r-2cqByyTmsBVD8H1Y9KQ1rXiXU&callback=initMap&libraries=geometry" async defer></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key='api_key'&callback=initMap&libraries=geometry" async defer></script>
 </body>
 </html>
 <?php }else{
