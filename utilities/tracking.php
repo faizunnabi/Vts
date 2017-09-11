@@ -1,7 +1,7 @@
 <?php
 $imei=$_POST["imei"];
 $data = array();
-$db = new PDO('mysql:host=localhost;dbname=Tracker;charset=utf8mb4', 'root', 'rumaithy');
+$db = new PDO('mysql:host='';dbname='';charset=utf8mb4', '', '');
 $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 $db->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
 $stmt = $db->query("SELECT d.status,t.* FROM devices d,new_tracker t where t.imei='$imei' and d.imei=t.imei order by last_updated desc limit 1");
