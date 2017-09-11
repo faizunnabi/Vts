@@ -11,7 +11,7 @@ if(!($sock = socket_create(AF_INET, SOCK_STREAM, 0)))
 echo "Socket created \n";
  
 //Connect socket to remote server
-if(!socket_connect($sock , '104.131.94.246' , 8888))
+if(!socket_connect($sock , 'ip address' , 'port no'))
 {
     $errorcode = socket_last_error();
     $errormsg = socket_strerror($errorcode);
