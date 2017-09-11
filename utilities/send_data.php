@@ -3,7 +3,7 @@
 	$st = $_POST['start'];
 	$sp = $_POST['stop'];
 	$data = array();
-	$db = new PDO('mysql:host=localhost;dbname=Tracker;charset=utf8mb4', 'root', 'rumaithy');
+	$db = new PDO('mysql:host='';dbname='';charset=utf8mb4', '', '');
 	$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 	$db->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
 	$stmt = $db->query("SELECT * FROM new_tracker where imei='$imei' and e_date between TIMESTAMP('$st') and TIMESTAMP('$sp')");
