@@ -36,7 +36,7 @@ if(isset($_SESSION['uname'])){
             <br/>
             <img src="img/logo_1.png" class="img-responsive" />
 
-            <p>&copy; <a href="#">Al Rumaithy Est.</a></p>
+            <p>&copy; <a href="#">ABC Company.</a></p>
         </div>
         <div class="map-section">
             <div id="map">
@@ -54,7 +54,7 @@ if(isset($_SESSION['uname'])){
 
 <script src="js/jquery.js"></script>
 <script type="text/javascript" src="js/scripts.js"></script>
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_GSG5r-2cqByyTmsBVD8H1Y9KQ1rXiXU&callback=initMap" async defer></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key='API_KEY'&callback=initMap" async defer></script>
 <script>
 $(document).ready(function(){
 	removeMarkers();
