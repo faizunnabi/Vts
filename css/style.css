@@ -1,0 +1,107 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+
+}
+
+#header{
+    background:#000;
+    padding: 5px 5px;
+    color: #f5f5f5;
+}
+
+#map{
+width: 100%;
+height:100%;
+}
+
+.top-menus{
+    float: right;
+
+}
+.top-menus a{
+    line-height:3;
+    vertical-align: baseline;
+    color: #f5f5f5;
+}
+
+.container-full{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.fixed{
+    position: fixed;
+    width: 100%;
+    height:100%;
+
+}
+
+#footer{
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    background:rgba(0,0,0,0.7);
+    left: 0;
+    bottom:0px;
+}
+
+.side-bar{
+    position: absolute;
+    left: 0;
+    top:0;
+    width:15%;
+    height: 100%;
+    background:#222;
+    color: #f5f5f5;
+    text-align:center;
+}
+
+.map-section{
+    position: absolute;
+    width: 85%;
+    height: 100%;
+    left: 15%;
+}
+
+.tab-head a{
+    display: inline-block;
+    color: #f5f5f5;
+    padding: 5px 5px;
+    text-align:center;
+}
+
+.tab-data{
+    height:300px;
+
+    margin-bottom: 10px;
+}
+
+.side-bar img{
+    margin: auto;
+}
+#full_main{
+    width:100%;
+    background:#f8f9f4;
+    height: 100%;
+}
+
+#login-box{
+    width:350px;
+    margin: auto;
+    border: 1px #999 solid;
+    padding: 20px;
+    margin-top:50px; 
+    border-radius: 5px;
+}
+
+#login-box img{
+    display: block;
+    width:164px;
+    margin: auto;
+
+}
