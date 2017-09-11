@@ -6,13 +6,13 @@
  * Time: 11:19 AM
  */
 
-$host = "localhost";
-$user = "root";
-$pass = "rumaithy";
-$db = "Tracker";
+$host = "";
+$user = "";
+$pass = "";
+$db = "";
 $im = $_GET['imei'];
 $data = array();
-$db = new PDO('mysql:host=localhost;dbname=Tracker;charset=utf8mb4', 'root', 'rumaithy');
+$db = new PDO('mysql:host='';dbname='';charset=utf8mb4', '', '');
 $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 $db->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
 $stmt = $db->query("SELECT * FROM locations where imei = '$im' and latitude !=0000.0000 order BY e_date DESC limit 1");
